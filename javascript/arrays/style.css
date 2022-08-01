@@ -1,0 +1,33 @@
+button{
+    padding:16px 22px;
+    margin: 10px;
+    border:1rem;
+    height: 3rem;
+    border-radius: 3rem;
+    color: black;
+    background-color:rgb(197, 133, 133);
+}
+#display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 3rem;
+    width: 16rem;
+    border: 5px solid black;
+    margin: 1rem;
+}
+button:hover{
+ background-color: bisque;
+}
+#calculator{
+    border: 5px solid black; 
+    margin: 2rem 32rem;
+    border-radius: 29px;
+}
