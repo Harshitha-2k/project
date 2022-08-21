@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cormorant+SC:wght@300&family=Crimson+Text:ital@1&family=Kanit:ital,wght@0,300;1,200&family=Poppins:ital,wght@1,300&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: italic;
+}
+section.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    height: 730px;
+    column-gap: 10px;
+}
+.form{
+    position: absolute;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+    width: 27%;
+}
+.form.signup{
+    height:600px;
+}
+.input.text,
+.input-button{
+    padding: 15px 66px;
+}
+input.btn{
+    display: block;
+    width: 250px;
+    font-size: 25px;
+    background-color: #aa5721a1;
+}
+.input.input{
+    font-size: 20px;
+}
+button{
+    width: 245px;
+    font-size: 20px;
+}
+header{
+    padding: 2px 147px;
+    font-size: 35px;
+}
+form{
+    margin-top: 25px;
+}
+p{
+    padding: 12px 75px;
+} 
+.form-link {
+    text-decoration: none;
+    margin: 23px;
+}   
+.form-link:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
+.form-link:active{
+    color: bisque;
+}
+a.link.login:hover{
+    color: palevioletred;
+}
+a.link.login:active{
+    color: bisque;
+}
+a.link.signup:hover{
+    color: palevioletred;
+}
+.form.signup{
+    opacity: 0;
+    pointer-events: none;
+}
+.forms.show-signup .form.signup{
+    opacity: 1;
+    pointer-events: auto;
+}

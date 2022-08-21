@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>sign-up</title>
+</head>
+<body>
+  <section class="forms">
+     <div class="form login">
+       <div class="form-content">
+        <header>Login</header>
+        <form action="#">
+          <div class="input text">
+            <input type="email" placeholder="Email" required class="input">
+          </div>
+
+          <div class="input text">
+            <input type="password" placeholder="password" required class="input">
+          </div>
+
+          <div class="input-button">
+            <input type="submit" value="login" class="btn">
+          </div>
+
+          <div class="form-link">
+            <p>Not a member?<a href="#" class=" link signup">signup</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <!-- sign-up -->
+
+    <div class="form signup">
+      <div class="form-content">
+       <header>Sign-up</header>
+       <form action="#">
+         <div class="input text">
+           <input type="text" placeholder="Frist-Name" class="input" required>
+         </div>
+
+         <div class="input text">
+          <input type="text" placeholder="Last-Name" class="input" required>
+        </div>
+
+         <div class="input text">
+           <input type="email" placeholder="Email" class="input" required>
+         </div>
+ 
+         <div class="input text">
+           <input type="password" placeholder="password" class="input" required>
+         </div>
+
+         <div class="input text">
+           <input  type="password" placeholder="confirm-password" class="input" required>
+         </div>
+
+         <div class="input-button">
+          <input type="submit" name="submit" value="signup" class="btn" required>
+         </div>
+
+         <div class="form-link">
+         <p>Click here for login?<a href="#" class=" link login">login</a></p>
+         </div>
+      </form>
+     </div>
+     </div>
+  </section>
+  <script src="signup.js"></script>
+</body>
+</html>
