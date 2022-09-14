@@ -1,0 +1,28 @@
+body{
+    background-color:#3a8b7f47;
+}
+h1{
+    text-align: center;
+}
+.contanier{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.dogdiv{
+    height: 45vh;
+    width: 313px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+}
